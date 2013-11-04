@@ -1,0 +1,37 @@
+body { background: white;
+      margin: auto;
+        border: 2px solid black;}
+#head { color: black;
+        text-align: center;
+}
+#header  {border: 3px solid red;
+           }
+#foot { border: black solid 2px;
+        border-top: black solid 4px;
+        text-align: center;
+        height: 50px;
+        margin: 0px;
+        padding: 0px;
+        }
+footer {clear:both;}
+.main-nav {text-align: center  }
+.main-nav > ul{ list-style: none;}
+.main-nav > ul > li { display: inline; padding-left: 20px;}
+a.main-nav-link:link{ text-transform: uppercase; font-size: 14px; text-decoration: none; color: #B99D6D; font-weight: 600;}
+a.main-nav-link:hover{ text-decoration: none; color: #B99D6D;}
+a.main-nav-link:visited{ text-decoration: none; color: #B99D6D;}
+#japcharimgleft {float:left;
+}
+#japcharimgright {float:right;
+}
+#belt { text-align:center;
+}
+#logoright { position:absolute;
+            right:6px;
+            top:20px;
+           }
+#logoleft { position:absolute;
+            left:6px;
+            top:20px;
+
+            }
